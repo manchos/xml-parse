@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : readers.xml
+    Created on : 3 Май 2011 г., 17:28
+    Author     : malahov
+    Description:
+        Purpose of the document follows.
+-->
+<RECORDS>
+<record>
+<mrk>
+<m_0_4 len="5">#####</m_0_4>
+<m_5_5 len="1">n</m_5_5>
+<m_6_6 len="1">a</m_6_6>
+<m_7_7 len="1">m</m_7_7>
+<m_8_8 len="1">#</m_8_8>
+<m_9_9 len="1">#</m_9_9>
+<m_10_10 len="1">2</m_10_10>
+<m_11_11 len="1">2</m_11_11>
+<m_12_16 len="5">#####</m_12_16>
+<m_17_17 len="1">#</m_17_17>
+<m_18_18 len="1">#</m_18_18>
+<m_19_19 len="1">#</m_19_19>
+<m_20_23 len="4">450</m_20_23>
+</mrk>
+<FIELD.10>Ульянина</FIELD.10>
+<FIELD.11>Юлия</FIELD.11>
+<FIELD.12>Александровна</FIELD.12>
+- <FIELD.13>
+<SUBFIELD.C>Саратов</SUBFIELD.C>
+<SUBFIELD.D>2-й Детский пр-д</SUBFIELD.D>
+<SUBFIELD.E>55/57</SUBFIELD.E>
+<SUBFIELD.H>121</SUBFIELD.H>
+</FIELD.13>
+<FIELD.17>52-57-65</FIELD.17>
+- <FIELD.19>
+<SUBFIELD.A>СГТУ</SUBFIELD.A>
+<SUBFIELD.B>д/о</SUBFIELD.B>
+<SUBFIELD.C>ФЭТиП</SUBFIELD.C>
+<SUBFIELD.E>УИТ</SUBFIELD.E>
+</FIELD.19>
+<FIELD.24>2570</FIELD.24>
+<FIELD.30>2570</FIELD.30>
+<FIELD.50>студент</FIELD.50>
+- <FIELD.51>
+070709
+<SUBFIELD.C>АБ2</SUBFIELD.C>
+</FIELD.51>
+- <FIELD.67>
+<SUBFIELD.0>1</SUBFIELD.0>
+</FIELD.67>
+<FIELD.920>RDR</FIELD.920>
+- <FIELD.31>
+<SUBFIELD.A>20080827</SUBFIELD.A>
+<SUBFIELD.B>КИВ</SUBFIELD.B>
+</FIELD.31>
+- <FIELD.907>
+<SUBFIELD.A>20080827</SUBFIELD.A>
+<SUBFIELD.B>КИИ</SUBFIELD.B>
+</FIELD.907>
+- <FIELD.907>
+<SUBFIELD.A>20090115</SUBFIELD.A>
+<SUBFIELD.B>АТЮ</SUBFIELD.B>
+</FIELD.907>
+- <FIELD.907>
+<SUBFIELD.A>20101223</SUBFIELD.A>
+<SUBFIELD.B>КИИ</SUBFIELD.B>
+</FIELD.907>
+</record>
+</RECORDS>
