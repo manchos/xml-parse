@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<userList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Users.xsd">
+<user uid="000323" status="1">
+<fullName>
+	<surname>Иванов</surname>
+	<name>Иван</name>
+	<patronymic>Иванович</patronymic>
+</fullName>
+<birthDate>1990-07-29</birthDate>
+<sex>м</sex>
+<password>qwerty</password>
+<email>ivanivanich@mail.ru</email>
+<category>студент</category>
+<groupId>0321</groupId>
+<groupName>1Ф-21</groupName>
+<year>2</year>
+<department>Кафедра физики</department>
+<regDate>2010-12-31</regDate>
+</user>
+<user uid="000324" status="1">
+<fullName>
+	<surname>Петров</surname>
+	<name>Петр</name>
+	<patronymic>Петрович</patronymic>
+</fullName>
+<birthDate>1987-03-05</birthDate>
+<sex>м</sex>
+<password>12345</password>
+<email>petr87@mail.ru</email>
+<category>студент</category>
+<groupId>0322</groupId>
+<groupName>1Ф-22</groupName>
+<year>2</year>
+<department>Кафедра физики</department>
+<regDate>2010-12-31</regDate>
+</user>
+</userList>

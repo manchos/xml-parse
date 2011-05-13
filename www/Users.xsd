@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="userList">
+<xs:complexType>
+<xs:sequence>
+
+<xs:element name="user" minOccurs="1" maxOccurs="unbounded">
+<xs:complexType>
+  <xs:sequence>
+	<xs:element name="fullName">  <!-- ФИО -->
+	<xs:complexType>
+	  <xs:sequence>
+		<xs:element name="surname" type="xs:string"/>  <!-- Фамилия -->
+		<xs:element name="name" type="xs:string"/>  <!-- Имя -->
+		<xs:element name="patronymic" type="xs:string"/>  <!-- Отчество -->
+	  </xs:sequence>
+	</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="birthDate" type="xs:date"/>  <!-- Дата рождения -->
+	<xs:element name="sex" type="xs:string"/>  <!-- Пол -->
+	<xs:element name="password" type="xs:string"/>  <!-- Пароль -->
+	<xs:element name="email" type="xs:string"/>  <!-- Адрес электронной почты -->
+	
+	<xs:element name="category" type="xs:string"/>  <!-- Категория (студент, сотрудник, ...) -->
+	<xs:element name="groupId" type="xs:string"/>  <!-- Идентификатор группы (0321, ...) -->
+	<xs:element name="groupName" type="xs:string"/>  <!-- Наименование группы (1ПО-21, ...) -->
+	<xs:element name="year" type="xs:positiveInteger"/>  <!-- Курс (1, 2, ...) -->
+	<xs:element name="department" type="xs:string"/>  <!-- Отдел, кафедра, факультет (ОПТО УИТ, Кафедра физики, ...) -->
+	<xs:element name="regDate" type="xs:date"/>  <!-- Дата регистрации -->
+  </xs:sequence>
+  
+  <xs:attribute name="uid" type="xs:string" use="required"/>  <!-- Уникальный идентификатор -->
+  <xs:attribute name="status" type="xs:string"/>  <!-- Статус (1 - активен, 0 - заблокирован, ...) -->
+  
+</xs:complexType>
+</xs:element>
+
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+</xs:schema>
