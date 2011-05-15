@@ -18,6 +18,34 @@ and open the template in the editor.
                 echo $reader['FIELD.10'];  // извлекаем название книги
               //  echo $reader->{FIELD.11}; // извлекаем имя и фамилию автора
             }
+            
+            // include class file
+            include("XML/Serializer.php");
+            $serializer = new XML_Serializer();
+            
+           // print_r($serializer);
+            /** @TODO 
+             * http://www.melonfire.com/community/columns/trog/article.php?id=244&page=2
+             */
+            // create array to be serialized
+            $xml = array ( "book" => array (
+                        "title" => "Oliver Twist",
+                        "author" => "Charles Dickens"));
+
+            // perform serialization
+            $result = $serializer->serialize($xml);
+
+            // check result code and display XML if success
+            if($result === true)
+            {
+               echo $serializer->getSerializedData();
+            }
+            
+            /**
+             * @todo проверка xml-схемы
+             * http://www.xml-training-guide.com/validate-xml-against-schema-using-php.html
+             * git push -u origin master
+             */
         ?>
     </body>
 </html>
