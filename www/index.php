@@ -28,9 +28,34 @@ and open the template in the editor.
              * http://www.melonfire.com/community/columns/trog/article.php?id=244&page=2
              */
             // create array to be serialized
-            $xml = array ( "book" => array (
-                        "title" => "Oliver Twist",
-                        "author" => "Charles Dickens"));
+           
+            // object definition
+            class User
+            {
+
+               // object properties
+               private $color;
+               private $year;
+               private $model;
+
+               public function setAttributes($c, $y, $m)
+               {
+                  $this->color = $c;
+                  $this->year = $y;
+                  $this->model = $m;
+               }
+            }
+
+
+            
+            $xml = array ( "fullName" => array (
+                                "surname" => $reader['FIELD.10'],
+                                "name" => $reader['FIELD.11'],
+                                "patronymic" => $reader['FIELD.12']
+                            ),
+                            "birthDate"=>''
+                            
+                );
 
             // perform serialization
             $result = $serializer->serialize($xml);
